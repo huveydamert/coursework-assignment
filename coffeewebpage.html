@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Lover's Corner</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 
@@ -30,8 +32,8 @@
         <ul>
             <li><a href="#history">History</a></li>
             <li><a href="#types">Types</a></li>
-            <li><a href="#form">Get in Touch</a></li>
             <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#form">Get in Touch</a></li>
         </ul>
     </nav>
 
@@ -47,10 +49,6 @@
     <section id="types">
         <h2>Exploring Different Coffee Types</h2>
         <p>There are various types of coffee enjoyed around the world...</p>
-        <section>
-            <h3>Espresso</h3>
-            <p>Known for its strong flavor and rich crema...</p>
-        </section>
     </section>
 
     <ul>
@@ -59,18 +57,26 @@
         <li>Liberica</li>
     </ul>
 
-    <form id="form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+   
+    <table>
+        <tr>
+            <th>Coffee Type</th>
+            <th>Origin</th>
+        </tr>
+        <tr>
+            <td>Arabica</td>
+            <td>Ethiopia</td>
+        </tr>
+        <tr>
+            <td>Robusta</td>
+            <td>West Africa</td>
+        </tr>
+        <tr>
+            <td>Liberica</td>
+            <td>Liberia</td>
+        </tr>
+    </table>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Submit</button>
-    </form>
 
     <section id="recipes">
         <h2>Coffee Recipes</h2>
@@ -104,25 +110,20 @@
         </section>
     </section>
   
-    <table>
-        <tr>
-            <th>Coffee Type</th>
-            <th>Origin</th>
-        </tr>
-        <tr>
-            <td>Arabica</td>
-            <td>Ethiopia</td>
-        </tr>
-        <tr>
-            <td>Robusta</td>
-            <td>West Africa</td>
-        </tr>
-        <tr>
-            <td>Liberica</td>
-            <td>Liberia</td>
-        </tr>
-    </table>
+    <form id="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+   
 </body>
 
 </html>
